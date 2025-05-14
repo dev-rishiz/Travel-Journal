@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+Body{
+    background-color: #ecf3d9;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    background-color: mediumaquamarine;
+}
+header h1 {
+    color: #fff;
+    padding: 10px;
+}
+img{
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+}
+.container{
+    margin: 45px, 40px;
+}
+
+.main-article{
+    display: flex;
+}
+
+.marker{
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    margin-bottom: 0px;
+}
+
+.main-img-container{
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.main-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.country{
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-right: 12px;
+}
+
+.info-container a{
+    color: #2B283A;
+    font-size: 0.7rem;
+    
+}
+.info-container a:visited{
+    color: #918E9B;
+}
+
+.title{
+    margin-top: 7px;
+    margin-bottom: 17px;
+}
+
+.trip-dates{
+    font-weight: bold;
+}
+.trip-entry{
+    line-height: 1.5;
+    font-size: 1rem;
+    display: -webkit-box;
+    /* -webkit-line-clamp: 3; */
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
